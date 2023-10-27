@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+    color: black; 
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.link-container {
+    display: flex; 
+}
+.info-container {
+    background-color: #86BCD6;
+    border-radius: 8px; 
+    border: 2px solid black; 
+}
+.info-margin {
+    margin: 10px; 
+}
+
+.img-box {
+    margin-right: 20px;
+    width: 155px; 
+    height: 160px;
+    background-color: #EEF0EC;
+    border-radius: 8px; 
+    border: 2px solid black; 
+}
+.nav-image {
+    margin: 5px; 
+    width: 140px; 
+    height: 145px; 
+    border-radius: 8px; 
+    border: 2px solid black; 
+}
+.about-me-img {
+    width: 64px; 
+    height: 64px; 
+    margin: 10px; 
+}
+.link-img {
+    width: 32px; 
+    height: 32px; 
+    margin: 10px; 
+}
+#banterimg {
+    height: 80px;
+}
+
+.btn {
+    border-color: #EEF0EC;
+}
+
+/* Add this CSS rule for the header and navigation image */
+header {
+    background-color: #0D6EFD;
+    padding: 10px 0;
+    border-bottom: 4px solid black; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-container {
+    background-color: #EEF0EC;
+    border-radius: 8px; 
+    border: 2px solid black; 
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    padding: 5px; 
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 20px 0;
+    background-color: #EEF0EC;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.work_company {
+    display: flex; 
+    align-items: center;
+}
+.work-description {
+    margin: 10px; 
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.resume-image {
+    text-align: center;
+}
+#resume-screenshot {
+    height: 1000px;
+}
+
+.info-bg {
+    background-color: #EEF0EC;
+    border-radius: 8px; 
+    border: 2px solid black; 
+}
+
+footer {
+    background-color: #0D6EFD;
+    color: #EEF0EC;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 4px solid black; 
+}
