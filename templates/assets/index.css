@@ -4,6 +4,15 @@ body {
     padding: 0;
 }
 
+.project-demo {
+    text-align: center;
+    padding: 20px; 
+}
+
+canvas {
+    padding: 5px; 
+}
+
 .container1 {
     display: flex;
     max-width: 960px;
@@ -151,4 +160,32 @@ footer {
     text-align: center;
     padding: 10px 0;
     border-top: 4px solid black; 
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip + .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover + .tooltiptext {
+    visibility: visible; 
+    opacity: 1;
 }
